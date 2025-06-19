@@ -1,0 +1,15 @@
+2025-05-26 21:06:39.397 [http-nio-8080-exec-46] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "com.project.travel.domain.User.getAvatar()" because "apeUser" is null]
+2025-05-26 22:00:58.484 [http-nio-8080-exec-89] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+### The error may involve com.project.travel.mapper.ChildTransactionality.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO attractions  ( id, name, price, introduce, content, num, real_name, images, open, time,  create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+; Data truncation: Data too long for column 'open' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1]
+2025-05-26 22:01:02.827 [http-nio-8080-exec-86] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+### The error may involve com.project.travel.mapper.ChildTransactionality.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO attractions  ( id, name, price, introduce, content, num, real_name, images, open, time,  create_by, create_time, update_by, update_time )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1
+; Data truncation: Data too long for column 'open' at row 1; nested exception is com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'open' at row 1]

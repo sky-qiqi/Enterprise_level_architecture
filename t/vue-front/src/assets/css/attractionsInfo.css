@@ -1,0 +1,120 @@
+.attractionsInfo {
+    width: 100%;
+    height: 100%;
+}
+.attractionsInfo1 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.attractionsInfo2 {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.attractionsInfo3 {
+    width: 60%;
+    height: 100%;
+    object-fit: contain;
+}
+.attractionsInfo4 {
+    width: 40%;
+    height: 100%;
+}
+.attractionsInfo5 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.attractionsInfo6 {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    overflow: hidden;
+    overflow-y: auto; /* 内容超出最大高度时显示滚动条 */
+}
+.attractionsInfo7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.attractionsInfo8 {
+    width: 70%;
+    box-shadow: rgba(37, 37, 37, 0.2) 0px 7px 29px 0px;
+}
+.attractionsInfo9 {
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.forum2 {
+    display: flex; /* 使用 flex 布局 */
+    align-items: flex-start; /* 对齐方式 */
+    margin-bottom: 10px; /* 间隔 */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.avatar {
+    border-radius: 50%; /* 圆形头像 */
+    width: 40px;
+    height: 40px;
+    margin-right: 10px; /* 头像与评论信息的间距 */
+}
+
+.comment-info {
+    flex: 1; /* 占据剩余空间 */
+}
+
+.comment-author {
+    font-weight: bold; /* 作者名称加粗 */
+    margin-bottom: 5px; /* 间隔 */
+}
+.attractionsInfo9 i {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.people-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.person-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.person-header {
+    margin-right: 10px;
+    min-width: 80px;
+}
+
+.input-group {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    width: 100%;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.add-button {
+    display: flex;
+    align-items: center;
+}

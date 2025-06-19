@@ -1,0 +1,64 @@
+._attractions {
+    height: 100%;
+    .search-table {
+        height: 100%;
+        .search {
+            height: 60px;
+        }
+        .table {
+            height: calc(100% - 70px);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .el-table {
+                flex: 1;
+            }
+        }
+    }
+}
+
+.search-table {
+    width: 100%;
+}
+
+.search {
+    background: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    background: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.el-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-title {
+    float: right;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 63px;
+    text-align: right;
+}
+
+.el-table {
+    padding: 10px;
+}
+
+:deep(.el-dialog__header) {
+    border-bottom: 1px solid #f4f8f9 !important;
+}
+
+:deep(.el-dialog) {
+    border-radius: 10px !important;
+}

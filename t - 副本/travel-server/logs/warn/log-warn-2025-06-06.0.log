@@ -1,0 +1,34 @@
+2025-06-06 08:27:05.149 [http-nio-8080-exec-27] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.project.travel.domain.Favorite.getPageNumber()" is null]
+2025-06-06 08:27:05.278 [http-nio-8080-exec-28] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+### The error may exist in com/project/travel/mapper/AttractionOrdermapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT line_id, COUNT(*) AS order_count FROM attraction_order WHERE line_id IS NOT NULL GROUP BY line_id
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list']
+2025-06-06 08:27:06.062 [http-nio-8080-exec-31] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.project.travel.domain.Favorite.getPageNumber()" is null]
+2025-06-06 08:27:06.069 [http-nio-8080-exec-30] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+### The error may exist in com/project/travel/mapper/AttractionOrdermapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT line_id, COUNT(*) AS order_count FROM attraction_order WHERE line_id IS NOT NULL GROUP BY line_id
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list']
+2025-06-06 08:27:09.645 [http-nio-8080-exec-33] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+### The error may exist in com/project/travel/mapper/AttractionOrdermapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT line_id, COUNT(*) AS order_count FROM attraction_order WHERE line_id IS NOT NULL GROUP BY line_id
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list']
+2025-06-06 08:27:11.222 [http-nio-8080-exec-34] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+### The error may exist in com/project/travel/mapper/AttractionOrdermapper.java (best guess)
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT line_id, COUNT(*) AS order_count FROM attraction_order WHERE line_id IS NOT NULL GROUP BY line_id
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'line_id' in 'field list']

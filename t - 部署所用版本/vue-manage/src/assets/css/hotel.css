@@ -1,0 +1,36 @@
+.search-table {
+    width: 100%;
+}
+
+.search {
+    background: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    background: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.el-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-title {
+    font-family: '黑体';
+    float: right;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-top: 10px;
+    width: 63px;
+    text-align: right;
+}
+
+:deep(.el-table) {
+    padding: 10px;
+}

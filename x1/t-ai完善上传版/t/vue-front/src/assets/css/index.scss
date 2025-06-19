@@ -1,0 +1,31 @@
+// src/assets/css/index.scss
+
+// ====================================================================
+// !!! 核心：这个文件现在只定义 Element Plus 的 CSS 变量，不进行任何 Sass 模块导入 !!!
+// 我们通过 CSS 变量来覆盖 Element Plus 的主题。
+// ====================================================================
+
+:root {
+  // 覆盖 Element Plus 的主题颜色 CSS 变量
+  --el-color-primary: #0066bc;
+  --el-color-success: #46b61f;
+  --el-color-warning: #ffad00;
+  --el-color-danger: #e52f2f;
+  --el-color-info: #47afdc;
+
+  // 如果需要，也可以覆盖其他 Element Plus 的 CSS 变量
+  // 例如：
+  // --el-text-color-primary: #303133;
+  // --el-border-color: #dcdfe6;
+}
+
+// 你的其他自定义全局 SCSS/CSS 样式放在这里。
+// 你可以直接使用 Element Plus 的 CSS 变量。
+body {
+  font-family: Arial, sans-serif;
+  color: var(--el-text-color-primary, #303133); // 使用默认值以防万一
+}
+.my-custom-component {
+  background-color: var(--el-color-primary);
+  border: 1px solid var(--el-color-info);
+}

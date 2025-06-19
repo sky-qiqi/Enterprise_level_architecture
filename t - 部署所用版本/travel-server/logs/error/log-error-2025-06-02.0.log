@@ -1,0 +1,49 @@
+2025-05-30 12:59:08.565 [lettuce-eventExecutorLoop-1-10] ERROR i.n.u.concurrent.DefaultPromise.rejectedExecution - Failed to submit a listener notification task. Event loop shut down?
+java.util.concurrent.RejectedExecutionException: event executor terminated
+	at io.netty.util.concurrent.SingleThreadEventExecutor.reject(SingleThreadEventExecutor.java:926)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.offerTask(SingleThreadEventExecutor.java:353)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.addTask(SingleThreadEventExecutor.java:346)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:828)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.execute(SingleThreadEventExecutor.java:818)
+	at io.netty.util.concurrent.DefaultPromise.safeExecute(DefaultPromise.java:842)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:499)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:184)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at io.lettuce.core.protocol.RedisHandshakeHandler.fail(RedisHandshakeHandler.java:130)
+	at io.lettuce.core.protocol.RedisHandshakeHandler.lambda$channelRegistered$0(RedisHandshakeHandler.java:62)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106)
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-06-02 16:35:54.402 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-06-02 16:38:27.083 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

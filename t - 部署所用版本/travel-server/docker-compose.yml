@@ -1,0 +1,58 @@
+services:
+  mysql:
+    image: alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/mysql_optimized:20240221-8.0.32-2.3.0
+    container_name: my-app-mysql
+    volumes:
+      - ./mysql/mydir:/mydir:Z
+      - ./mysql/datadir:/var/lib/mysql:Z
+      - ./mysql/source:/docker-entrypoint-initdb.d:Z
+    environment:
+      - "MYSQL_ROOT_PASSWORD=1234"
+      - "MYSQL_DATABASE=travel"
+      - "TZ=Asia/Shanghai"
+    ports:
+      - "3306:3306"
+    networks:
+      - my-app-network
+    restart: always
+    command: mysqld
+
+  springboot:
+    image: crpi-3vpyztande977iy7.cn-chengdu.personal.cr.aliyuncs.com/jmt/docker:backend
+    container_name: my-app-springboot
+    networks:
+      - my-app-network
+    ports:
+      - "8080:8080"
+    environment:
+      - "SPRING_DATASOURCE_URL=jdbc:mysql://mysql:3306/travel"
+      - "SPRING_DATASOURCE_USERNAME=root"
+      - "SPRING_DATASOURCE_PASSWORD=1234"
+    depends_on:
+      - mysql
+    restart: always
+
+  redis:
+    image: alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/redis_optimized:20240221-6.2.7-2.3.0 # 已修改为 cn-hangzhou 区域
+    container_name: my-app-redis
+    networks:
+      - my-app-network
+    ports:
+      - "6379:6379"
+    restart: always
+    command: redis-server
+
+  vue-frontend:
+    image: crpi-3vpyztande977iy7.cn-chengdu.personal.cr.aliyuncs.com/jmt/docker:fount
+    container_name: my-app-vue-frontend
+    networks:
+      - my-app-network
+    ports:
+      - "3000:80"
+    depends_on:
+      - springboot
+    restart: always
+
+networks:
+  my-app-network:
+    driver: bridge

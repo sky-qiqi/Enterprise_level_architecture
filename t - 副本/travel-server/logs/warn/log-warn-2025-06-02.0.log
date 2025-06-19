@@ -1,0 +1,70 @@
+2025-06-02 14:27:49.362 [http-nio-8080-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY']
+2025-06-02 14:27:54.543 [http-nio-8080-exec-100] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY']
+2025-06-02 14:28:53.072 [http-nio-8080-exec-5] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929424509305069569' for key 'hotel_item.PRIMARY']
+2025-06-02 14:32:13.123 [http-nio-8080-exec-63] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY']
+2025-06-02 14:32:17.644 [http-nio-8080-exec-67] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY']
+2025-06-02 14:32:21.470 [http-nio-8080-exec-71] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY']
+2025-06-02 14:32:25.665 [http-nio-8080-exec-69] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY']
+2025-06-02 14:33:21.312 [http-nio-8080-exec-75] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+### The error may exist in com/project/travel/mapper/HotelItemMapper.java (best guess)
+### The error may involve com.project.travel.mapper.HotelItemMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hotel_item  ( id, hotel_id, name, price, num )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'
+; Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1929425727838461954' for key 'hotel_item.PRIMARY']
+2025-06-02 16:35:54.306 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-06-02 16:35:54.353 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-06-02 16:38:26.998 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-06-02 16:38:27.041 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2025-06-02 16:51:27.351 [http-nio-8080-exec-94] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "com.project.travel.domain.TravelRoute.getName()" because "travelRoute" is null]
+2025-06-02 21:14:18.103 [http-nio-8080-exec-58] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException: Cannot invoke "com.project.travel.domain.User.getAvatar()" because "apeUser" is null]

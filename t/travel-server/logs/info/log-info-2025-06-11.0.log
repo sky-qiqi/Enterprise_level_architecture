@@ -1,0 +1,28 @@
+2025-06-11 18:04:37.526 [restartedMain] INFO  com.project.travel.TravelApplication - Starting TravelApplication using Java 17.0.6 on lu2061143969 with PID 27844 (D:\AppDevelopment\Day\day15\t-ai完善上传版\t\travel-server\target\classes started by xiaolu in D:\AppDevelopment\Day\day15\t-ai完善上传版\t\travel-server)
+2025-06-11 18:04:37.533 [restartedMain] INFO  com.project.travel.TravelApplication - The following profiles are active: dev
+2025-06-11 18:04:37.585 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-11 18:04:37.586 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-11 18:04:38.443 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2025-06-11 18:04:38.447 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-06-11 18:04:38.512 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 0 Redis repository interfaces.
+2025-06-11 18:04:39.237 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2025-06-11 18:04:39.247 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-06-11 18:04:39.248 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-06-11 18:04:39.248 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2025-06-11 18:04:39.352 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-06-11 18:04:39.352 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1766 ms
+2025-06-11 18:04:39.772 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2025-06-11 18:04:40.576 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2025-06-11 18:04:41.449 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2025-06-11 18:04:41.752 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-06-11 18:04:41.786 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-06-11 18:04:41.819 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2025-06-11 18:04:41.827 [restartedMain] INFO  com.project.travel.TravelApplication - Started TravelApplication in 4.875 seconds (JVM running for 5.973)
+2025-06-11 18:08:47.694 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-11 18:08:47.694 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-06-11 18:08:47.695 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-06-11 18:11:17.820 [http-nio-8080-exec-44] INFO  com.project.travel.handle.insertFill - 公共字段自动填充[insert]...
+2025-06-11 18:43:57.987 [http-nio-8080-exec-18] INFO  com.project.travel.handle.insertFill - 公共字段自动填充[insert]...
+2025-06-11 18:57:37.038 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2025-06-11 18:57:37.039 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2025-06-11 18:57:37.045 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
